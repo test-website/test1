@@ -1,5 +1,5 @@
 div {
-border-style: 2px;
+border-style: 2px dashed;
 }
 
 #Wrapper {
