@@ -25,7 +25,7 @@ border-style: 2px dashed;
   background-color: #b3e6ff;
   width: 100%;
   margin: 0 auto;
-  height: 100px;
+  height: 50px;
 }
 
 #MenuBar {
@@ -36,7 +36,7 @@ border-style: 2px dashed;
   display: inline;
   border-style: solid;
   border-width: 0px 2px 0px 0px;
-  padding: 4px 20px;
+  padding: 10px 20px;
 }
 
 #HolderImage {
