@@ -1,7 +1,4 @@
-div {
-border-style: 2px dashed;
-}
-
+background-color:; 
 #Wrapper {
   width: 100%;
   position: absolute;
@@ -10,22 +7,27 @@ border-style: 2px dashed;
 }
 
 #Holder {
-  background-color: #FAFAFA;
+  position: relative;
+  background-color: #FAF9F9;
   margin: 0 auto;
-  width: 80%;
-  top: 0px;
+  width: 1300px;
+  top: 61px;
+  z-index:1;
+  border-style:solid;
+  border-radius: 2px; 
+  border-color:#fcfcfc #fcfcfc #E2E2E5 #E2E2E5;
+  border-width: 7px;
 }
 
-#Header {
-  width: 100%;
-  margin: 0 auto;
-}
 
 #TopBarButtonHolder {
+  position:fixed;
+  top:0px;
   background-color: #b3e6ff;
+  min-width:1600px;
   width: 100%;
   margin: 0 auto;
-  height: 37px;
+  height: 50px;
 }
 
 #MenuBar {
@@ -33,17 +35,36 @@ border-style: 2px dashed;
 }
 
 .TopButtons {
-  display: inline;
-  border-style: solid;
-  border-width: 0px 2px 0px 0px;
-  padding: 10px 20px;
-  position: relative;
-  top: 10px;
-  margin: 30px;
+  float:left;
+  height:50px;
+  width:19.5%;
+  margin-right:2px;
+  background-color:#B3E6FF;
+  border-style:solid;
+  border-width:0px 2px 0px 0px;
+  border-color:#ceefff;
+  /**
+  The rest of this section is related to the text portion of the buttons
+  **/
+  Font-family:Impact;
+  font-size:40px;
+  text-align:center;
+  color:#ffffff;
+    -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none; 
+}
+.TopButtons:hover {
+  Background-color:#9bdeff; 
+}
+#TopButtonSpecial{
+  margin-left: 10px;
 }
 
 #HolderImage {
-  margin: 0 auto;
-  width: 100%;
-  height: 80%;
+  margin: 2px;
+  width: 256px;
+  height: 256px;
 }
