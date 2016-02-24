@@ -1,4 +1,3 @@
-background-color:; 
 #Wrapper {
   width: 100%;
   position: absolute;
@@ -6,11 +5,20 @@ background-color:;
   left: 0px;
 }
 
+#BackgroundImage{
+	position:absolute;
+	left:-1px;
+	top:50px;
+	width:100%;
+	height:100%;
+	z-index:-2;
+}
+
 #Holder {
   position: relative;
   background-color: #FAF9F9;
   margin: 0 auto;
-  width: 1300px;
+  width: 1290px;
   top: 61px;
   z-index:1;
   border-style:solid;
@@ -28,6 +36,10 @@ background-color:;
   width: 100%;
   margin: 0 auto;
   height: 50px;
+  padding-left:0px;
+  border-style:solid;
+  border-width:0px 0px 2px 0px;
+  border-color:#0074a6;
 }
 
 #MenuBar {
@@ -37,7 +49,7 @@ background-color:;
 .TopButtons {
   float:left;
   height:50px;
-  width:19.5%;
+  width:19.65%;
   margin-right:2px;
   background-color:#B3E6FF;
   border-style:solid;
